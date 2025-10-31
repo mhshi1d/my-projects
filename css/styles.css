@@ -1,0 +1,44 @@
+body {
+    background-color: floralwhite !important;
+}
+
+img.logo {
+    width: 150px;
+}
+
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url("../images/header-background.jpg") no-repeat fixed center center;
+    background-size: cover;
+}
+
+.navbar {
+    transition: 0.5s;
+}
+
+.invitation-bg {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/invitation-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: var(--bs-dark);
+    }
+
+    .register {
+        padding: 40px 0 !important;
+    }
+
+    .summary {
+        margin-top: 0 !important;
+        width: 90% !important;
+    }
+}
+
+.to-top{
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 60px;
+    height: 60px;
+    transition-duration: 0.5s;
+}
